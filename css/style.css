@@ -1,8 +1,12 @@
-/* group selector */
-h1,
-h2,
-p {
+/* id selectors */
+#title {
   color: darkmagenta;
+  background: lightslategrey;
+}
+
+#subheading {
+  color: maroon;
+  background: wheat;
 }
 
 /* CSS RULE */
