@@ -1,12 +1,11 @@
-/* id selectors */
-#title {
-  color: darkmagenta;
-  background: lightslategrey;
+/* class selectors */
+.green {
+  color: teal;
 }
 
-#subheading {
-  color: maroon;
-  background: wheat;
+.red {
+  color: darkred;
+  background: lightgoldenrodyellow;
 }
 
 /* CSS RULE */
