@@ -1,10 +1,8 @@
-h1 {
-  color: darkred;
-  font-size: 25px;
-}
-h2 {
-  color: darkolivegreen;
-  font-size: 18px;
+/* group selector */
+h1,
+h2,
+p {
+  color: darkmagenta;
 }
 
 /* CSS RULE */
