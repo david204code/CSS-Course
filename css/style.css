@@ -12,6 +12,14 @@
   background: lightgoldenrodyellow;
 }
 
+span {
+  text-transform: uppercase;
+}
+
+.text {
+  background: white;
+  color: blue;
+}
 /* CSS RULE */
 /* selector */
 /* declaration block */
