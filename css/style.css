@@ -1,12 +1,21 @@
-/* COLOR NAMES > 140  */
+/* RGB RED GREEN BLUE 0-255 */
 
 #first {
-  color: wheat;
-  background-color: black;
+  color: rgb(255, 0, 0);
+  /* the color black is 0, 0, 0 */
+  background: rgb(0, 0, 0);
 }
 
 #second {
-  color: red;
-  /* for "background" this can be color or image, background-image */
-  background: yellow;
+  color: rgb(0, 255, 0);
+  background: rgb(255, 255, 255);
+}
+
+#three {
+  color: rgb(0, 0, 255);
+  background: rgb(200, 90, 230);
+}
+
+body {
+  background: rgb(150, 146, 210);
 }
