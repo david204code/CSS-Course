@@ -1,28 +1,18 @@
-/* DIV and SPAN - used for grouping */
-/* DIV - used to group multiple elements */
-/* SPAN - used to group inline content */
+/* INHERITANCE */
+/* Children inherit styles from the parent, unless have their own styles */
 
-/* class selectors */
-.green {
-  color: teal;
+body {
+  color: red;
 }
 
-.red {
-  color: darkred;
-  background: lightgoldenrodyellow;
+.special {
+  color: green;
 }
 
-span {
-  text-transform: uppercase;
-}
-
-.text {
-  background: white;
+h2 {
   color: blue;
 }
-/* CSS RULE */
-/* selector */
-/* declaration block */
-/* declaration */
-/* property */
-/* value */
+
+div {
+  color: brown;
+}
