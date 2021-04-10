@@ -19,3 +19,7 @@ p {
 .heading {
   color: green;
 }
+
+* {
+  color: brown;
+}
