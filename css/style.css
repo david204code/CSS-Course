@@ -1,25 +1,13 @@
-/* Last Rule and Specificity * Universal Selector */
+/* COLOR PROPERTIES */
+/* COLOR BACKGROUND-COLOR BACKGROUND */
 
-.special {
-  color: green;
+#first {
+  color: white;
+  background-color: black;
 }
 
-p {
+#second {
   color: red;
-}
-
-p {
-  color: blue;
-}
-
-#heading {
-  color: red;
-}
-
-.heading {
-  color: green;
-}
-
-* {
-  color: brown;
+  /* for "background" this can be color or image, background-image */
+  background: yellow;
 }
