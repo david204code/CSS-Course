@@ -1,38 +1,13 @@
-/* 
-RESOURCES: color generator
-https://coolors.co/
-
-
+/* PIXELS - absolute values, one dot on the screen
+FONT-SIZE - size of the font
+WIDTH - width of an element
+HEIGHT - height of an element
 */
 
-/* 
-  HSL
-  HEX Values #RRGGBB
-  123456789 A(10) B(11) C(12) D(13) E(14) F(15)
-            10    11    12    13    14    15
-
-            #FF0000 - Red
-            #00FF00 - Green
-
-  1-9 will be numbers after than it is letters
-*/
-
-#first {
-  color: #ff0000;
-  background: #000;
-}
-
-#second {
-  color: #fff;
-  background: #00ff00;
-}
-
-#three {
-  color: #0000ff;
-  background: #f15025;
-}
-
-#four {
-  color: #f234ad;
-  background: #222;
+h1 {
+  font-size: 60px;
+  background: blue;
+  color: white;
+  width: 200px;
+  height: 400px;
 }
