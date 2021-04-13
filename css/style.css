@@ -1,12 +1,13 @@
 /* 
-em - RELATIVE, depends on parent
-1em - 16px default browser style
-1em - base value (16px) * number (1) = 16px
-2em = base value (16px) * number (2) = 32px
-2em = base value (10px) * number (2) = 20px
-*/
+rem - RELATIVE, depends on root instead of the parent
+1rem = base value (16px) * number (1)
+ */
 
-/* setting up base value */
+/* root value */
+html {
+  font-size: 10px;
+}
+
 div {
   font-size: 10px;
 }
@@ -16,5 +17,5 @@ div {
 }
 
 .relative {
-  font-size: 2em;
+  font-size: 2rem;
 }
