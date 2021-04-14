@@ -1,13 +1,11 @@
 /* 
-font-stack 
-generic-family, supply multiply option if the browser does not support, fall back system
-serif, sans-serif, cursive, fantasy, monospace
+GOOGLE FONTS
 */
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Trade Winds", cursive;
 }
