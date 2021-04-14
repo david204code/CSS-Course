@@ -1,5 +1,6 @@
 /* 
-GOOGLE FONTS
+  font-weight: how thick or thin characters in text should be
+  font-style: sets font style for a text
 */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Trade+Winds&display=swap");
 
@@ -7,6 +8,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h1 {
+.main-heading {
   font-family: "Trade Winds", cursive;
+}
+
+.one {
+  font-weight: bold;
+}
+
+.two {
+  font-weight: lighter;
 }
