@@ -12,10 +12,15 @@ body {
   font-family: "Trade Winds", cursive;
 }
 
+.sub-heading {
+  font-style: italic;
+}
+
 .one {
   font-weight: bold;
 }
 
 .two {
   font-weight: lighter;
+  font-style: oblique;
 }
