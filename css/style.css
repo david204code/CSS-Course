@@ -1,7 +1,5 @@
 /* 
-CALC ()
-PERFORM MATH OPERATIONS + - * /
-MIX AND MATCH VALUES
+height: auto; min-height; max-height; overflow: hidden/scroll
 */
 
 * {
@@ -10,7 +8,7 @@ MIX AND MATCH VALUES
 
 .navbar {
   background: blue;
-  height: 100px;
+  height: 6rem;
   color: white;
   font-size: 3rem;
 }
@@ -18,5 +16,15 @@ MIX AND MATCH VALUES
 .banner {
   background: red;
   /* full screen without scrolling! */
-  height: calc(100vh - 100px);
+  /* height: calc(100vh - 6rem); */
+  min-height: calc(100vh - 6rem);
+  max-height: 90vh;
+  overflow: scroll;
+}
+
+.example {
+  background: green;
+  height: 25rem;
+  width: 10rem;
+  overflow: scroll;
 }
