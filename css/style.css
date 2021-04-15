@@ -14,3 +14,7 @@ body {
 .one {
   letter-spacing: 5px;
 }
+
+.two {
+  word-spacing: 10px;
+}
