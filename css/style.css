@@ -1,12 +1,6 @@
 /* 
-CSS BOX MODEL, PADDING, MARGIN, BORDER
+BORDER-RADIUS, NEGATIVE MARGIN
 */
-
-/* padding, padding top, right, bottom, left */
-
-* {
-  margin: 0;
-}
 
 h1,
 p {
@@ -15,29 +9,14 @@ p {
 
 h1 {
   background: red;
-  padding: 20px;
-  margin: 2rem;
-  /* border longhand */
-  /* border-style: solid;
-  border-width: 10px;
-  border-color: chartreuse; */
-  /* short hand */
-  /* border-bottom: 0.5rem dotted blue; */
-  /* individual side long hand */
-  border-bottom-style: double;
-  border-bottom-color: green;
-  border-bottom-width: 20px;
+  padding: 10px;
+  border: 15px solid black;
+  border-radius: 20px;
 }
 
 p {
   background: blue;
-  /* when it is one number it is top, right, bottom and left */
-  /* padding: 40px; */
-  /* if it is two values, the 1st value represent top & bottom, 2nd value left & right */
-  padding: 20px 60px;
-  /* 4 values ordered from top,right,bottom,left */
-  padding: 5px 20px 50px 40px;
-  margin: 4rem 4px 50px 20px;
-  /* border short-hand, border-width, border-style, border-color */
-  border: 1rem dashed red;
+  padding: 15px;
+  border: 7px dotted green;
+  border-radius: 20%;
 }
