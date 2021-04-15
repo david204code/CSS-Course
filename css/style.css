@@ -2,17 +2,28 @@
   line-height - if number it is relative by font-size
   letter-spacing
   word-spacing
-  text-transform
   text-decoration
+  text-transform
 */
+
+a {
+  font-size: 3rem;
+  text-decoration: none;
+}
 
 body {
   font-size: 20px;
   line-height: 1.5;
 }
 
+h1 {
+  text-decoration: underline;
+  line-height: 2.5;
+}
+
 .one {
   letter-spacing: 5px;
+  text-decoration: overline;
 }
 
 .two {
