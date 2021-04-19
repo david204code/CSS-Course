@@ -1,23 +1,18 @@
 /* 
-HORIZONTAL CENTERING
-
+BLOCK: broswer respects width/height, top/bottom margin
+INLINE: broswer does not respect width/height,
+top/bottom margin
+Navbar
+list-type-type:property
+descendant selectors
 */
 
-/* set the parent component first */
-body {
-  text-align: left;
-}
-
-.block {
+/* span (inline) element will not work */
+div {
   background: blue;
   color: white;
   width: 300px;
-  margin: 2rem auto;
-  /* individual */
-  /* margin-left: auto; */
-}
-
-.inline {
-  background: red;
-  color: white;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 200px;
 }
