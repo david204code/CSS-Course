@@ -1,30 +1,17 @@
 /* 
-OUTLINE, OFFSET
+ELEMENTS HAVE IT SET BY DEFAULT 
+BLOCK: Always starts a new line and spans full width
+INLINE: Does not start a new line and spans only content
 */
 
-.links {
-  margin: 3rem;
+.block {
+  background: blue;
+  color: white;
+  /* display: inline; */
 }
 
-a {
-  background: #689f3f;
-  text-decoration: none;
-  padding: 1.2rem 1.5rem;
-  text-transform: uppercase;
-  margin: 0 20px;
-}
-
-#one {
-  border: 0.2rem solid #222;
-  /* outline shorthand */
-  outline: 0.2rem solid red;
-  outline-offset: -10px;
-}
-
-#two {
-  /* outline longhand */
-  outline-width: 0.2rem;
-  outline-color: #222;
-  outline-style: solid;
-  outline-offset: -10px;
+.inline {
+  background: red;
+  color: white;
+  /* display: block; */
 }
