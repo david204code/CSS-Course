@@ -1,17 +1,23 @@
 /* 
-ELEMENTS HAVE IT SET BY DEFAULT 
-BLOCK: Always starts a new line and spans full width
-INLINE: Does not start a new line and spans only content
+HORIZONTAL CENTERING
+
 */
+
+/* set the parent component first */
+body {
+  text-align: left;
+}
 
 .block {
   background: blue;
   color: white;
-  /* display: inline; */
+  width: 300px;
+  margin: 2rem auto;
+  /* individual */
+  /* margin-left: auto; */
 }
 
 .inline {
   background: red;
   color: white;
-  /* display: block; */
 }
