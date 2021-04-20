@@ -1,14 +1,32 @@
 /* 
-  display: inline-block;
-  does not start a new line
-  broswer respects margin, width, height
+  display: none - remove from the flow, hide element
+  collapse the space
+  opacity: 0, visibility: hidden - hides element preserves the space
 */
 
-a {
-  font-size: 1.5rem;
-  background: red;
-  width: 70px;
-  height: 40px;
-  margin: 40px 10px;
-  display: inline-block;
+div {
+  background: #f15025;
+  margin: 10px;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.none {
+  display: none;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+
+.opacity-5 {
+  opacity: 0.5;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.visibility {
+  visibility: hidden;
 }
