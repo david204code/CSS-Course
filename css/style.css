@@ -1,16 +1,21 @@
+/* background-repeat */
 div {
   height: 300px;
   color: white;
+  border: 2px solid red;
 }
 
 .big-img {
   background: url("../praise.jpeg");
+  background-repeat: round;
 }
 
 .small-img {
   background: url("../cross.jpeg");
+  background-repeat: no-repeat;
 }
 
 .folder-img {
   background: url("../images/worship.jpg");
+  background-repeat: no-repeat;
 }
