@@ -1,9 +1,22 @@
 /* background-position */
 
+/* remove whitespace */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 div {
-  height: 300px;
+  min-height: 100vh;
   color: white;
   border: 2px solid red;
+  /* flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 .big-img {
@@ -11,21 +24,21 @@ div {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .small-img {
-  background: url("../cross.jpeg");
+  background: url("../images/worship.jpg");
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   background-position: center;
-  /* background-position: left;
-  background-position: right;
-  background-position: bottom; */
-  background-position: 20% 50%;
+  background-attachment: fixed;
 }
 
 .folder-img {
-  background: url("../images/worship.jpg");
+  background: url("../praise.jpeg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
