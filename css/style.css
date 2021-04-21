@@ -1,4 +1,5 @@
-/* background-repeat */
+/* background-size */
+
 div {
   height: 300px;
   color: white;
@@ -7,15 +8,18 @@ div {
 
 .big-img {
   background: url("../praise.jpeg");
-  background-repeat: round;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .small-img {
   background: url("../cross.jpeg");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .folder-img {
   background: url("../images/worship.jpg");
   background-repeat: no-repeat;
+  background-size: contain;
 }
