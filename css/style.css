@@ -27,17 +27,13 @@ div {
 
 .small-img {
   background: url("../images/worship.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .folder-img {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../praise.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+    url("../praise.jpeg") center/cover no-repeat fixed;
 }
