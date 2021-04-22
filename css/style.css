@@ -1,7 +1,7 @@
 /* 
-  position: absolute - relative to the parent with position: relative.
-  position: fixed - relative to viewport(screen), stay as we are scrolling
-  will use other content to fill out the space
+  position: sticky - toggle between relative and fixed
+  once the position is met in the viewport - then it sticks
+  one of the values top, left, bottom, right
 */
 
 .nav {
@@ -9,10 +9,9 @@
   color: white;
   font-size: 1.5rem;
   text-transform: capitalize;
-  position: fixed;
+  position: sticky;
   margin-top: 0;
-  top: 0;
-  left: 0;
+  top: 10px;
   width: 100%;
 }
 
@@ -39,6 +38,6 @@ div {
 }
 
 .container {
-  min-height: 100vh;
+  min-height: 300vh;
   background: blue;
 }
