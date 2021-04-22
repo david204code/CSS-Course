@@ -1,7 +1,5 @@
-/* background-position */
-
 /* remove whitespace */
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,11 +9,12 @@ div {
   min-height: 100vh;
   color: white;
   border: 2px solid red;
-display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .big-img {
@@ -35,41 +34,10 @@ display: flex;
 }
 
 .folder-img {
-  background: url("../praise.jpeg");
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../praise.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-} */
-
-div {
-  width: 150px;
-  height: 150px;
-  margin: 5px;
-}
-
-/* Linear Gradients */
-
-.one {
-  background: linear-gradient(red, green);
-}
-
-.two {
-  background: linear-gradient(to top, blue, green, red, yellow, #f15025);
-}
-
-.three {
-  background: linear-gradient(180deg, red, green);
-}
-
-.four {
-  background: linear-gradient(to top right, red, green);
-}
-
-.five {
-  background: linear-gradient(blue 40%, yellow 70%);
-}
-
-.six {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9));
 }
