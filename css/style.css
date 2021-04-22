@@ -15,6 +15,11 @@ div {
 .one {
   background: blue;
   color: white;
+  position: relative;
+  /* top: 200px; */
+  bottom: 2rem;
+  /* left: 20%; */
+  right: 40px;
 }
 
 .two {
