@@ -4,11 +4,22 @@
   will use other content to fill out the space
 */
 
+.nav {
+  background: red;
+  color: white;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  position: fixed;
+  margin-top: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 div {
   border: 3px solid red;
   background: yellow;
   margin-top: 40px;
-  position: relative;
 }
 
 .one {
@@ -25,9 +36,6 @@ div {
   background: pink;
   font-size: 20px;
   color: black;
-  /* position: absolute; */
-  top: 0;
-  left: 0;
 }
 
 .container {
