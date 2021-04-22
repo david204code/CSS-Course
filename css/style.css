@@ -37,3 +37,29 @@ div {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../praise.jpeg") center/cover no-repeat fixed;
 }
+
+.colorzilla {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+0,931717+20,931717+70,931717+70,7db9e8+100&0.4+0,1+100 */
+  background: -moz-linear-gradient(
+    left,
+    rgba(41, 137, 216, 0.4) 0%,
+    rgba(147, 23, 23, 0.52) 20%,
+    rgba(147, 23, 23, 0.82) 70%,
+    rgba(125, 185, 232, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(41, 137, 216, 0.4) 0%,
+    rgba(147, 23, 23, 0.52) 20%,
+    rgba(147, 23, 23, 0.82) 70%,
+    rgba(125, 185, 232, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(41, 137, 216, 0.4) 0%,
+    rgba(147, 23, 23, 0.52) 20%,
+    rgba(147, 23, 23, 0.82) 70%,
+    rgba(125, 185, 232, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#662989d8', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
