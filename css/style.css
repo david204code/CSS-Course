@@ -4,23 +4,45 @@
   img --- does not work
 */
 
-p::before {
-  content: "Deuteronomy 6:5";
-  display: block;
-  background: #222;
-  font-weight: bold;
-  font-size: 2rem;
-  color: red;
+div {
+  width: 70vw;
+  margin: 100px auto;
+  position: relative;
 }
 
-p::after {
-  /* content: "Matthew 22:37"; */
-  content: "";
+img {
   width: 100%;
-  height: 3rem;
   display: block;
-  background: #222;
-  font-weight: bold;
-  font-size: 1rem;
-  color: red;
+}
+
+div::before {
+  content: "";
+  border: 2px solid grey;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -40px;
+  left: -40px;
+  z-index: -2;
+  transition: all 0.5s linear;
+}
+
+div::after {
+  content: "";
+  background: rgba(128, 128, 128, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+  transition: all 0.5s linear;
+}
+
+div:hover::after,
+div:hover::before {
+  top: 0;
+  left: 0;
 }
