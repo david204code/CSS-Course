@@ -1,37 +1,26 @@
 /* 
-  z-index --- z-axis
-  0 - default
-  does not work on position:static;
+  ::before ::after pseudo-elements creates element and inserts before and after CONTENT
+  content:'' - required
+  img --- does not work
 */
 
-img {
-  width: 150px;
-  height: 150px;
-  position: absolute;
+p::before {
+  content: "Deuteronomy 6:5";
+  display: block;
+  background: #222;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
 }
 
-.banner {
-  margin: 20px;
-  width: 80vw;
-  height: 70vh;
-  border: 5px solid green;
-  position: relative;
-}
-
-.one {
-  top: 0;
-  left: 0;
-  z-index: 3;
-}
-
-.two {
-  top: 10%;
-  left: 10%;
-  z-index: 2;
-}
-
-.three {
-  top: 20%;
-  left: 20%;
-  z-index: 1;
+p::after {
+  /* content: "Matthew 22:37"; */
+  content: "";
+  width: 100%;
+  height: 3rem;
+  display: block;
+  background: #222;
+  font-weight: bold;
+  font-size: 1rem;
+  color: red;
 }
