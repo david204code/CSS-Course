@@ -1,14 +1,20 @@
 /* 
-  ::first-line ::first-letter
+  :hover
 */
 
-/* first line */
-p::first-line {
-  font-weight: bold;
-  font-size: 20px;
+/* as mouse hover over the selector elements */
+div:hover {
+  color: green;
 }
 
-/* first letter */
-p::first-letter {
-  font-size: 250%;
+.header:hover {
+  color: white;
+  background: blue;
+  letter-spacing: 5px;
+}
+
+a:hover {
+  text-decoration: none;
+  font-size: 20px;
+  background: pink;
 }
