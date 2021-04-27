@@ -1,23 +1,20 @@
-/* universal selector */
-* {
+/* 
+  Descendant and Child Selectors
+*/
+
+div h1 {
   color: red;
 }
 
-/* id selector with # */
-#heading {
-  font-size: 40px;
-  text-transform: uppercase;
-  color: blue;
-}
-
-/* class selector with . */
-.heading {
-  font-size: 20px;
-  text-transform: capitalize;
+.header h1 {
   color: green;
 }
 
-/* simple element selector */
-p {
-  letter-spacing: 5px;
+/* select a direct child */
+div > h1 {
+  color: blue;
+}
+
+.header > h1 {
+  color: purple;
 }
