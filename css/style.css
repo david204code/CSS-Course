@@ -10,16 +10,16 @@ div {
 
 .one {
   background: red;
-  transform: translateX(50%);
+  transform: scaleX(0.8);
 }
 
 .two {
   background: green;
-  transform: translateY(-40px);
+  transform: scaleY(2);
 }
 
 .three{
   background:blue;
-  /* transform: translateX(75px); */
-  transform: translate(200px, 300px);
+  /* transform: scale(2, 4); */
+  transform: scale(2)
 }
