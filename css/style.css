@@ -12,6 +12,7 @@ div {
 .animation {
   background: blue;
   animation: move 5s 2;
+  animation-fill-mode: forwards;
 }
 
 @keyframes move {
@@ -30,7 +31,7 @@ div {
   }
 
   100% {
-    transform: translateX(0px);
+    transform: translateX(20px);
     opacity: 0.5;
   }
 }
