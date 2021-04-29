@@ -1,5 +1,7 @@
 /* 
-  transform: translate(), scale() rotate(), skew()
+  transition: change over time
+  transition-property:
+  transition-duration: 
 */
 
 div {
@@ -8,17 +10,20 @@ div {
   display: inline-block;
 }
 
+div:hover {
+  background: coral;
+}
+
 .one {
   background: red;
-  transform: skewX(40deg);
 }
 
 .two {
   background: green;
-  transform: skewY(40deg);
 }
 
 .three {
   background: blue;
-  transform: skew(40deg, 30deg);
+  transition-property: background;
+  transition-duration: 2s;
 }
